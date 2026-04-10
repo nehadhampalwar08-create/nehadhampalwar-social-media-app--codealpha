@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+}
+
+/* Navbar */
+.navbar {
+  background: white;
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+}
+
+/* Main container */
+.container {
+  width: 400px;
+  margin: 20px auto;
+}
+
+/* Card */
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+/* Create post */
+.create-post input {
+  width: 75%;
+  padding: 8px;
+}
+
+.create-post button {
+  padding: 8px 12px;
+  background: #0095f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Post */
+.post-text {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.time {
+  font-size: 11px;
+  color: gray;
+}
+
+/* Buttons */
+.like-btn {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+
+.comment-btn {
+  background: none;
+  border: none;
+  color: #0095f6;
+  cursor: pointer;
+}
+
+/* Comments */
+input[type="text"] {
+  width: 70%;
+  padding: 6px;
+  margin-top: 5px;
+}
+/* 📱 MOBILE VIEW */
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .card {
+    margin-bottom: 15px;
+    border-radius: 0;
+  }
+
+  .navbar {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .create-post input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .create-post button {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+/* LOGIN PAGE */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #fafafa;
+}
+
+.login-card {
+  width: 300px;
+  padding: 30px;
+  background: white;
+  border: 1px solid #ddd;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.logo {
+  font-family: cursive;
+  margin-bottom: 20px;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+}
+
+.login-card button {
+  width: 100%;
+  padding: 10px;
+  background: #0095f6;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}

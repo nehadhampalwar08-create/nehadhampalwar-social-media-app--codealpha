@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>InstaClone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <h2>📸 InstaClone</h2>
+  </div>
+
+  <div class="container">
+
+    <!-- LOGIN BOX -->
+    <div class="login-container" id="loginBox">
+
+  <div class="login-card">
+    <h2 class="logo">📸 InstaClone</h2>
+
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+
+    <button onclick="login()">Log In</button>
+  </div>
+
+</div>
+    <!-- CREATE POST -->
+    <div class="card create-post">
+      <h3>Create Post</h3>
+
+      <input type="text" id="content" placeholder="What's on your mind?">
+
+      <!-- ✅ IMAGE UPLOAD -->
+      <input type="file" id="image">
+
+      <button onclick="createPost()">Share</button>
+    </div>
+
+    <!-- POSTS -->
+    <div id="posts"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
